@@ -1772,6 +1772,7 @@ public static class LocalizationCache
 		{
 			return localization;
 		}
+		var _ = Localization.instance;
 		localization = new Localization();
 		if (language is not null)
 		{
